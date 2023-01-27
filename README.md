@@ -1,1 +1,0 @@
-# gregoryzelikman.me 
