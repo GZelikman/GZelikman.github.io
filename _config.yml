@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Greg's Blog
+author: Gregory Zelikman
 email: contact@gregoryzelikman.me
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my website, 
@@ -26,6 +27,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://gregoryzelikman.me" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  GZelikman
+
+excerpt_length: 50
+feed_show_excerpt: true
 
 post_search: true
 
@@ -35,6 +39,18 @@ markdown: kramdown
 paginate: 5
 paginate_path: "/:num/"
 date_format: "%b %-d, %Y"
+
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+page-col: "#808080"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+footer-hover-col: "#0085A1"
 
 
 # Build settings
