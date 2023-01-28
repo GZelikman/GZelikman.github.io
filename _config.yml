@@ -56,7 +56,6 @@ footer-hover-col: "#0085A1"
 # Build settings
 theme: jekyll-theme-midnight
 plugins:
-  - github-pages
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
