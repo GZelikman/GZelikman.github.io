@@ -28,11 +28,6 @@ baseurl: ""
 url: "https://gregoryzelikman.me" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  GZelikman
 
-excerpt_length: 50
-feed_show_excerpt: true
-
-post_search: true
-
 # Site settings
 permalink: /:title/
 markdown: kramdown
