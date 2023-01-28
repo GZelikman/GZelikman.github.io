@@ -22,6 +22,7 @@ title: Greg's Blog
 email: contact@gregoryzelikman.me
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my website, still not sure what to do with it thoe.
+baseurl: ""
 url: "gregoryzelikman.me" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  GZelikman
 
