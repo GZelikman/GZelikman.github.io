@@ -18,6 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+timezone: Germany/Berlin
+
+
 title: Greg's Blog
 author: Gregory Zelikman
 email: contact@gregoryzelikman.me
