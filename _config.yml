@@ -14,11 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Greg's Blog
+email: contact@gregoryzelikman.de
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my website, 
-  still not sure what to do with it.
+  still work in progress.
 baseurl: ""
-url: "https://gzelikman.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gregoryzelikman.de" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  GZelikman
 
 # Build settings
