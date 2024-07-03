@@ -6,3 +6,21 @@ h1{
 body{
     background-image: radial-gradient(circle, #000000 0%, #560866 100%);
 }
+
+p{
+    color :white;
+    text-align: center;
+    font-family: monospace, monospace;
+}
+
+.allButFooter {
+    min-height: calc(100vh - 90px);
+}
+
+a{
+    color: white;
+}
+
+.foot{
+    text-align: center;
+}
