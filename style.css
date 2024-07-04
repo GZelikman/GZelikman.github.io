@@ -4,7 +4,7 @@ h1{
     font-family: monospace, monospace;
 }
 body{
-    background-image: radial-gradient(circle, #000000 0%, #560866 100%);
+    background-image: radial-gradient(ellipse , #000000 0%, #560866 100%);
 }
 
 p{
@@ -22,5 +22,21 @@ a{
 }
 
 .foot{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg2 {
+    margin-top: -25px;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+.svg1 {
+    transform: translateX(-50%);
+  }
+
+.logo{
     text-align: center;
 }
