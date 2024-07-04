@@ -38,7 +38,7 @@ a{
     background-size: 100% 2px, 0 2px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
-    transition: background-size 400ms;
+    transition: background-size 800ms;
   }
 
   .pub:hover {
@@ -55,12 +55,31 @@ a{
 .svg2 {
     margin-top: -25px;
     position: absolute;
-    transform: translateX(-50%);
+    transform: translateX(-40%);
   }
 .svg1 {
-    transform: translateX(-50%);
+    transform: translateX(-60%);
   }
 
 .logo{
     text-align: center;
+}
+
+
+.svg1:hover {
+    filter: 
+    invert(0.5)
+    sepia(1)
+    hue-rotate(200deg)
+    saturate(4)
+    brightness(1);
+}
+
+.svg2:hover {
+    filter: 
+    invert(0.5)
+    sepia(1)
+    hue-rotate(200deg)
+    saturate(4)
+    brightness(1);
 }
