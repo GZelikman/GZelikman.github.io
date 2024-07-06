@@ -1,15 +1,9 @@
 h1{
-    color :white;
-    text-align: center;
-    font-family: monospace, monospace;
     margin-top: auto;
 }
 body{
     background-image: radial-gradient(ellipse , #000000 0%, #560866 100%);
-}
-
-p{
-    color :white;
+    color: white;
     text-align: center;
     font-family: monospace, monospace;
 }
