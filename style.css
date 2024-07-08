@@ -50,15 +50,9 @@ a{
     align-items: center;
 }
 
-.svg2 {
-    margin-top: 23px;
-    position: absolute;
-    transform: translateX(0%);
-  }
 .svg1 {
     margin-top: 25px;
-    position: absolute;
-    transform: translateX(-110%);
+    position: relative;
   }
 
 .logo{
@@ -101,16 +95,6 @@ figcaption{
 
 
 .svg1:hover {
-    filter: 
-    invert(0.5)
-    sepia(1)
-    hue-rotate(300deg)
-    saturate(8)
-    brightness(1);
-    transition: filter 1s;
-}
-
-.svg2:hover {
     filter: 
     invert(0.5)
     sepia(1)
