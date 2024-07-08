@@ -6,10 +6,11 @@ body{
     color: white;
     text-align: center;
     font-family: monospace, monospace;
+    margin-top: 0;
 }
 
 .allButFooter {
-    min-height: calc(100vh - 90px);
+    min-height: calc(100vh - 80px);
 }
 
 a{
@@ -48,12 +49,12 @@ a{
 }
 
 .svg2 {
-    margin-top: -25px;
+    margin-top: 23px;
     position: absolute;
     transform: translateX(0%);
   }
 .svg1 {
-    margin-top: -23px;
+    margin-top: 25px;
     position: absolute;
     transform: translateX(-100%);
   }
