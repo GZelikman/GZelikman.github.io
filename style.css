@@ -180,3 +180,15 @@ figcaption{
 .dropdown:hover .dropbtn {
     background-color: rgb(76, 31, 85); 
 } 
+
+.keyword1{
+  color : rgb(255, 0, 0);
+}
+
+.keyword2{
+  color : rgb(255, 251, 0);
+}
+
+.keyword3{
+  color : rgb(0, 255, 0);
+}
