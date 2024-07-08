@@ -56,7 +56,7 @@ a{
 .svg1 {
     margin-top: 25px;
     position: absolute;
-    transform: translateX(-100%);
+    transform: translateX(-110%);
   }
 
 .logo{
@@ -71,16 +71,18 @@ a{
     filter: 
     invert(0.5)
     sepia(1)
-    hue-rotate(200deg)
-    saturate(4)
+    hue-rotate(300deg)
+    saturate(8)
     brightness(1);
+    transition: filter 1s;
 }
 
 .svg2:hover {
     filter: 
     invert(0.5)
     sepia(1)
-    hue-rotate(200deg)
-    saturate(4)
+    hue-rotate(300deg)
+    saturate(8)
     brightness(1);
+    transition: filter 1s;
 }
