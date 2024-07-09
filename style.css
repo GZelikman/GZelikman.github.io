@@ -72,6 +72,11 @@ a{
     align-items: center;
 }
 
+li::marker{
+  content: "⇒ ";
+  color: #fdfdff;
+}
+
 h2{
   margin-top: 5%;
 }
