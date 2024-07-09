@@ -9,48 +9,33 @@
     font: italic bold 3.2rem cursive;
     text-shadow: 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black;
     letter-spacing: 3px;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 100%;
+    height: 100%;
   }
   
   ol {
-    /* Remove defaults */
     margin: 0;
     padding: 0;
     list-style: none;
-      
-    /* Use CSS grid for spacing between list items */
     display: grid;
     gap: 20px;
-    
-    /* Create counter */
     counter-reset: list;
   }
   
   li {
-    /* Use CSS grid for spacing between marker and list item contents */
     display: grid;
     grid-template-columns: min-content 500px;
     column-gap: 20px;
-    
-    /* Increment counter */
     counter-increment: list;
   }
   
   li::before {
-    /* Set content to an empty string */
     content: counter(list);
-    
-    /* Add animation */
     animation: 3s linear 0s infinite spin;
-      
-    /* Create the box and center its contents */
     width: 60px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    /* Additional text styles */
     color: white;
   }
