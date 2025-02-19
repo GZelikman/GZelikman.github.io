@@ -119,12 +119,13 @@ figcaption{
 }
 
 .dropbtn {
-  background-color: #7a0a91;
+  background-color: rgba(0, 100, 200, 1);
   color: white;
   padding: 10px;
   font-size: 16px;
   border: none;
   margin-top: 20%;
+  border-radius: 10%;
 }
 
 .dropdown {
@@ -135,9 +136,8 @@ figcaption{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(213, 2, 255);
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
   z-index: 1;
 }
 
@@ -146,14 +146,16 @@ figcaption{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  border-radius: 5%;
+  margin-top: 10px;
 }
 
 .link {
   background:
     linear-gradient(
       to right,
-      rgb(76, 31, 85),
-      rgb(76, 31, 85)
+      rgba(0, 100, 200, 1),
+      rgba(0, 100, 200, 1)
     ),
     linear-gradient(
       to right,
@@ -176,7 +178,7 @@ figcaption{
 }
 
 .dropdown:hover .dropbtn {
-    background-color: rgb(76, 31, 85); 
+    background-color: rgb(0, 79, 157); 
 } 
 
 .keyword1{
