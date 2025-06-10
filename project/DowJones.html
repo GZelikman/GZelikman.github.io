@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>gregoryzelikman.de</title>
+        <meta name="keywords" content="Python, Javascript, Project">
+        <meta name="description" content="DowJones">
+        <meta name="author" content="Gregory Zelikman">
+        <meta property="og:title" content="Project website"/>
+        <meta property="og:type" content="project"/>
+        <meta property="og:url" content="https://gregoryzelikman.de/project/DowJones.html"/>
+        <meta property="og:image" content="https://gregoryzelikman.de/things/logo.png"/>
+        <link rel="icon" type="image/png" href="../things/logoBlack2.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <div class="allButFooter">
+    <body>
+        <a href="../index.html"><img src="../things/logo2.png" class="logo"></a>
+        <hr class="line">
+        <h1>Website</h1>
+        <p> <b>Keywords:</b> <span class="keyword1">Python</span> <span class="keyword2">Javascript</span> <span class="keyword2">FastAPI</span> <span class="keyword3">Project</span></p>
+        <p>The code for this project is available on <a href="https://github.com/GZelikman/DowJones" class="pub">Github</a></p>
+        <p> This project is a web application with a backend written in Python using FastAPI and a frontend written in Javascript. <br>
+            This Application is meant to be for a bar, where you can order drinks on the "Market". The Prices of the drinks will change based on demand and a little randomness.
+            The Idea for this project is inspired by Barcelona’s “Dow Jones Bar”, so I wanted to recreate it.
+            The picture below shows the final product the customer would see on the order Tablet (The Tablet is needed, as it displays the current prices and allows for easy ordering).</p>
+        <img src="../things/Market.png" class="imageMarket">
+        <figcaption>The User Interface</figcaption>
+        <p>If one presses on Item on the Market, an ordering Pop-up will appear. In this Pop-up the user can track past prices and place their order. In the Ordering process the user can select the quantity and confirm their order.</p>
+        <img src="../things/Order.png" class="imageOrder">
+        <figcaption>Ordering Pop-up</figcaption>
+        <p> To be able to show the current prices, as well as the past prices, the backend keeps track of all price changes and user orders in a Json File. The Graph seen in the picture above, is created by plotting the data in the backend and sending it 
+            via a base64 encoded png.</p>
+        <p> After currently 50 ordered Drinks a marketcrash will appear for 2 mins, this marketcrash will cause all the prices to change to the minimum price, this is meant for extra fun, as well, to not inflate the prices after to many Orders</p>
+        <img src="../things/Marketcrash.png" class="imageMarket">
+        <figcaption>Marketcrash</figcaption>
+        <p> After the costumer experience, the bartender experience should also be taken into account. This includes giving a tablet a tablenumber, see orders, create the bill, add or delete drinks and statistics. 
+            currently the admin can only asign tablenumbers and see the orders, but in the future I want to add the rest of the functionality.</p>
+        <img src="../things/numberinput.png" class="image">
+        <figcaption>Inputing the tablenumber</figcaption>
+        <p> Before opening the index.html file, where the costumers can see current prices and Order Drinks, the bartender needs to input the table number, as seen in the picture above.</p>
+        <p> For the Bartender though, there is a complete own site, which he can use. In the picture below is the current state of this App</p>
+        <img src="../things/Adminpanel.png" class="imageMarket">
+        <figcaption>The Adminpanel</figcaption>
+        <p> The last part that is currently programmed ist the ability to click on an Order, to see more details about it. If it is prssed, the needed information is displayed in a Pop-up, as seen in the picture below.</p>
+        <img src="../things/OrderAdmin.png" class="image">
+        <figcaption>Pop-Up of an Order on the Adminpanel </figcaption>
+        <h2>Conclusion</h2>
+        <p>It was an intresting idea to try to recreate a available concept and implement it. I hope I will have more time to work on this project and add more features in the future.</p>
+        <h2>Changes to the project since this site is online</h2>
+        <ul>
+            <li>Added a python program to add drinks, for this you need the type of the drink, name and the min and max prices</li>
+        </ul>
+
+
+    </body>
+    </div>
+    <footer>
+        <div class="foot">
+            <a href="https://github.com/GZelikman"><img width="50px" src="../things/github-mark.svg" class="svg1"></a>
+            <a href="https://rickroll.it/rickroll.mp4"><img width="50px" src="../things/youtube.svg" class="svg1"></a>
+            <a href="../ignore/cat.html"><img width="50px" src="../things/cat.svg" class="svg1"></a>
+
+        </div>
+    </footer>
+</html> 
