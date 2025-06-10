@@ -19,37 +19,41 @@
         <hr class="line">
         <h1>Website</h1>
         <p> <b>Keywords:</b> <span class="keyword1">Python</span> <span class="keyword2">Javascript</span> <span class="keyword2">FastAPI</span> <span class="keyword3">Project</span></p>
-        <p>The code for this project is available on <a href="https://github.com/GZelikman/DowJones" class="pub">Github</a></p>
-        <p> This project is a web application with a backend written in Python using FastAPI and a frontend written in Javascript. <br>
-            This Application is meant to be for a bar, where you can order drinks on the "Market". The Prices of the drinks will change based on demand and a little randomness.
-            The Idea for this project is inspired by Barcelona’s “Dow Jones Bar”, so I wanted to recreate it.
-            The picture below shows the final product the customer would see on the order Tablet (The Tablet is needed, as it displays the current prices and allows for easy ordering).</p>
-        <img src="../things/Market.png" class="imageMarket">
-        <figcaption>The User Interface</figcaption>
-        <p>If one presses on Item on the Market, an ordering Pop-up will appear. In this Pop-up the user can track past prices and place their order. In the Ordering process the user can select the quantity and confirm their order.</p>
-        <img src="../things/Order.png" class="imageOrder">
-        <figcaption>Ordering Pop-up</figcaption>
-        <p> To be able to show the current prices, as well as the past prices, the backend keeps track of all price changes and user orders in a Json File. The Graph seen in the picture above, is created by plotting the data in the backend and sending it 
-            via a base64 encoded png.</p>
-        <p> After currently 50 ordered Drinks a marketcrash will appear for 2 mins, this marketcrash will cause all the prices to change to the minimum price, this is meant for extra fun, as well, to not inflate the prices after to many Orders</p>
-        <img src="../things/Marketcrash.png" class="imageMarket">
-        <figcaption>Marketcrash</figcaption>
-        <p> After the costumer experience, the bartender experience should also be taken into account. This includes giving a tablet a tablenumber, see orders, create the bill, add or delete drinks and statistics. 
-            currently the admin can only asign tablenumbers and see the orders, but in the future I want to add the rest of the functionality.</p>
-        <img src="../things/numberinput.png" class="image">
-        <figcaption>Inputing the tablenumber</figcaption>
-        <p> Before opening the index.html file, where the costumers can see current prices and Order Drinks, the bartender needs to input the table number, as seen in the picture above.</p>
-        <p> For the Bartender though, there is a complete own site, which he can use. In the picture below is the current state of this App</p>
-        <img src="../things/Adminpanel.png" class="imageMarket">
-        <figcaption>The Adminpanel</figcaption>
-        <p> The last part that is currently programmed ist the ability to click on an Order, to see more details about it. If it is prssed, the needed information is displayed in a Pop-up, as seen in the picture below.</p>
-        <img src="../things/OrderAdmin.png" class="image">
-        <figcaption>Pop-Up of an Order on the Adminpanel </figcaption>
-        <h2>Conclusion</h2>
-        <p>It was an intresting idea to try to recreate a available concept and implement it. I hope I will have more time to work on this project and add more features in the future.</p>
-        <h2>Changes to the project since this site is online</h2>
-        <ul>
-            <li>Added a python program to add drinks, for this you need the type of the drink, name and the min and max prices</li>
+        <p>The code for this project is available on <a href="https://github.com/GZelikman/DowJones" class="pub">GitHub</a></p> 
+        <p>This project is a web application with a backend written in Python using FastAPI and a frontend written in JavaScript. <br> 
+            The application is designed for a bar, where customers can order drinks through a "Market" interface. Drink prices change dynamically based on demand and a small element of randomness. 
+            The concept is inspired by Barcelona’s “Dow Jones Bar”, and I wanted to recreate a similar experience. The image below shows the final product as it would appear on a customer-facing tablet. 
+            The tablet is necessary, as it displays live pricing and allows for easy ordering.</p> 
+        <img src="../things/Market.png" class="imageMarket"> 
+        <figcaption>User Interface</figcaption> 
+        <p>When a user taps on an item in the Market, an ordering pop-up appears. This pop-up allows the user to view historical price trends and place an order. 
+            During the ordering process, the user can select the desired quantity and confirm the order.</p> 
+        <img src="../things/Order.png" class="imageOrder"> 
+        <figcaption>Ordering Pop-up</figcaption> 
+        <p>To display current and historical prices, the backend continuously tracks all price changes and user orders in a JSON file. 
+            The price graph shown above is generated in the backend, encoded as a base64 PNG, and then sent to the frontend.</p> 
+        <p>Currently, after 50 drinks have been ordered, a "market crash" event is triggered for 2 minutes. During this time, all drink prices drop to their minimum levels. 
+            This feature adds extra fun to the experience and helps prevent long-term price inflation after too many orders.</p> 
+        <img src="../things/Marketcrash.png" class="imageMarket"> 
+        <figcaption>Market Crash</figcaption> 
+        <p>In addition to the customer experience, the bartender experience is also considered. This includes assigning table numbers to tablets, viewing orders, generating bills, and managing the drinks menu and statistics. 
+            Currently, the admin interface allows assigning viewing orders at the moment. I plan to implement the remaining functionality in future updates.</p> 
+        <img src="../things/numberinput.png" class="image"> 
+        <figcaption>Assigning a Table Number</figcaption> 
+        <p>Before opening the <code>index.html</code> file (where customers can view current prices and place orders), the bartender must first input the table number, as shown above.</p> 
+        <p>For the bartender, there is a dedicated admin site. The current state of this admin panel is shown below:</p> 
+        <img src="../things/Adminpanel.png" class="imageMarket"> 
+        <figcaption>Admin Panel</figcaption> 
+        <p>The latest feature added to the admin panel is the ability to click on an order to view more detailed information. 
+            When an order is selected, its details appear in a pop-up window, as shown below:</p> 
+        <img src="../things/OrderAdmin.png" class="image"> 
+        <figcaption>Order Pop-Up in the Admin Panel</figcaption> 
+        <h2>Conclusion</h2> 
+        <p>It was an interesting challenge to try to recreate an existing concept and bring it to life through this project. 
+            I hope to have more time in the future to further develop it and add new features.</p> 
+        <h2>Changes to the Project Since This Page Went Online</h2> 
+        <ul> 
+            <li>Added a Python program for adding new drinks. To add a drink, you specify its type, name, and minimum and maximum prices.</li> 
         </ul>
 
 
